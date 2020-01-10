@@ -1,15 +1,15 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AdminComponent } from './admin.component';
 import { AdminRoutingModule } from './admin-routing.module';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
-    AdminComponent
+    AdminComponent,
+    LoginComponent
   ],
   imports: [
-    BrowserModule,
-    AdminRoutingModule
+      AdminRoutingModule
   ],
   providers: [],
   bootstrap: []
