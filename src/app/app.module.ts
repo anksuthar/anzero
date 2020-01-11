@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FrontendModule } from './frontend/frontend.module'
+import { FrontendModule } from './frontend/frontend.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { FrontendModule } from './frontend/frontend.module'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FrontendModule
+    FrontendModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
