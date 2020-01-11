@@ -1,28 +1,15 @@
-<p>frontend works!</p>
-<header class="header">
-    <div class="header__top">
-        <div class="container-fluid">
-            <div class="row">
-            </div>
+<div class="main-container">
+    <mat-toolbar color="primary" class="topbar telative">
+        <div class="navbar-header">
+            <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item>Item 1</button>
+                <button mat-menu-item>Item 2</button>
+            </mat-menu>
+            <a mat-button routerLink="/user/login" routerLinkActive="active">Login</a>
         </div>
-    </div>
-    <nav class="navigation">
-        <div class="container-fluid">
-          <div class="navigation__column left">
-            <div class="header__logo"><a class="ps-logo" href="index.html"><img src="images/logo.png" alt=""></a></div>
-          </div>
-          <div class="navigation__column center">
-            <ul class="main-menu menu">
-                <li class="menu-item menu-item-has-children dropdown">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="menu-item menu-item-has-children dropdown">
-                    <a href="index.html">Login</a>
-                </li>
-             </ul>
-          </div>
-          <div class="navigation__column right">
-
-          </div>
-<router-outlet></router-outlet>
-<h1>Footer</h1>
+    </mat-toolbar>
+    <div class="page-content">
+        <router-outlet></router-outlet>
+    </div>    
+</div>
