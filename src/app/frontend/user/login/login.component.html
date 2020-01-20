@@ -1,10 +1,12 @@
 <div class="login-container">
-    <mat-form-field>
-      <input matInput email placeholder="Input">
-    </mat-form-field>
-    <mat-form-field>
-        <input matInput password placeholder="Input">
-    </mat-form-field>
-    <button mat-button>Login</button>
-  </div>
+  <mat-form-field>
+    <input matInput email i18n-placeholder placeholder="Email">
+  </mat-form-field>
+  <mat-form-field>
+      <input matInput password i18n-placeholder placeholder="Password">
+  </mat-form-field>
+  <button mat-button i18n="Login button|Login button description@@loginButton">
+    Login
+  </button>
+</div>
 

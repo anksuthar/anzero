@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template">
+  <file source-language="es" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="6765b4c916060f6bc42d9bb69e80377dbcb5e4e9" datatype="html">
         <source>Login</source>
-         <target>
-          Login es
-        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/user/user.component.html</context>
           <context context-type="linenumber">4</context>
@@ -14,9 +11,6 @@
       </trans-unit>
       <trans-unit id="7d6573fb998f3a1cf1356623b85850d9d10edaa9" datatype="html">
         <source>Registration</source>
-         <target>
-          Registration es
-        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/user/user.component.html</context>
           <context context-type="linenumber">7</context>
@@ -24,7 +18,6 @@
       </trans-unit>
       <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
         <source>Email</source>
-        <target>Email</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/user/login/login.component.html</context>
           <context context-type="linenumber">3</context>
@@ -32,45 +25,21 @@
       </trans-unit>
       <trans-unit id="c32ef07f8803a223a83ed17024b38e8d82292407" datatype="html">
         <source>Password</source>
-        <target>Password</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/user/login/login.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="loginButton" datatype="html">
-        <source>Login</source>
-        <target>Login</target>
+        <source>
+          Login
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/frontend/user/login/login.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
         <note priority="1" from="description">Login button description</note>
         <note priority="1" from="meaning">Login button</note>
-      </trans-unit>
-    <trans-unit id="adadf996dcd6f06c274f01f9ba766339a7ae6b21" datatype="html">
-        <source>Firstname</source>
-        <target>Firstname</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/frontend/user/signup/signup.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="b38714fa958eaae47696e2822d9ba80969385353" datatype="html">
-        <source>Lastname</source>
-        <target>Lastname</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/frontend/user/signup/signup.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="registrationButton" datatype="html">
-        <source>Registration</source>
-        <target>Registration</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/frontend/user/signup/signup.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
       </trans-unit>
     </body>
   </file>
